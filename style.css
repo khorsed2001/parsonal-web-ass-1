@@ -1,19 +1,110 @@
-/* ==================================
-Common Style
-==================================== */
 * {
     margin: 0;
     padding: 0;
-
+    font-family: Inter;
 }
 
 .container {
-    width: 75%;
-    max-width: 1440px;
+    width: 80%;
+    max-width: 1470px;
     margin: 0 auto;
 }
 
-.container .banner-img img{
+.image-container {
+    position: relative;
+    margin: 50px 0px 120px;
+    border-radius: 10px;
 
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+  
+
+}
+
+.image-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+
+.new-year-offer{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.offer-65{
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+
+}
+
+.short-desc{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.all-catt{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom:50px;
+
+}
+
+.new-year-img {
+    width: 802px;
+    height: 500px;
+    margin:0 auto;
+}
+.dj-allitem{
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    margin:50px 0px;
+}
+
+.banner-dj img{
+    max-width: 100%;
+}
+
+.text-photo{
+    display: flex;
+    position: absolute;
+    top:0px;
+    left:0;
+    padding:100px;
+}
+
+
+.banner-title{
+    text-align:left;
+    color:white;
+    max-width: 350px;
+}
+
+.banner-img{}
+
+
+
+
+
+
 
