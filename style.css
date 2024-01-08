@@ -273,7 +273,7 @@ button {
 
 
 .holidays {
-    margin:100px 0;
+    margin: 100px 0;
 }
 
 .holidays h4 {
@@ -318,51 +318,102 @@ button {
 
 
 
-.exited{
+.exited {
     background-image: url(images/Rectangle2.png);
-    background-size:100%;
+    background-size: 100%;
     background-repeat: no-repeat;
     border-radius: 5px;
-    background-position:bottom;
+    background-position: bottom;
     display: flex;
     height: 500px;
 
 }
 
-.box-img{
-    width:50%;
+.box-img {
+    width: 50%;
 
 }
 
-.box-img img{
-    width:100%;
+.box-img img {
+    width: 100%;
 
 }
 
-.offer-img{
+.offer-img {
     display: flex;
-    width:50%;
-    
-}
-.offer-img img{
+    width: 50%;
 
 }
 
-.offer-img1{
+
+
+.offer-img1 {
     width: 200px;
     height: 200px;
     margin-top: 50px;
     position: absolute;
     margin-left: 66px;
     z-index: 2;
-    
+
 }
-.offer-img2{
+
+.offer-img2 {
     width: 340px;
     height: 313px;
-    position:relative;
-    margin-left:200px;
-z-index: 1;
-    
+    position: relative;
+    margin-left: 200px;
+    z-index: 1;
+}
 
+
+.portfolio {
+    margin: 50px 0;
+}
+
+.portfolio-title {
+    text-align: left;
+}
+
+.portfolio-title h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.portfolio-title h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 15px 0;
+}
+
+.portfolio-title p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 50px;
+
+}
+
+
+.portfolio-image {
+    justify-content: space-between;
+}
+    
+.portfolio-image img {
+    width: 320px;
+    height: 350px;
+    border-radius: 16px;
+    margin:5px;
 }
