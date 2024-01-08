@@ -422,7 +422,8 @@ button {
 .news-latter {
     width: 100%;
     height: 600px;
-    background-color: rgba(255, 188, 188, 0.651);
+    background: rgba(255, 0, 0, 0.05);
+    margin:120px 0;
 
 }
 
@@ -461,13 +462,19 @@ button {
     /* 160% */
 }
 
-.newslatter-input input {
-    width: 620px;
-    height: 70px;
-    border-radius: 50px;
-    background: #FFF;
-    font-size:18px;
-    margin:20px 0;
-    padding:10px;
-    border:0;
+
+.footer-containt{
+
 }
+
+.footter-section{
+    width:100%;
+    height: 400px;
+    background-color: #070211f1;
+    color:white;
+}
+.text-section{
+
+}
+
+
