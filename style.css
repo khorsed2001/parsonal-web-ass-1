@@ -410,10 +410,64 @@ button {
 .portfolio-image {
     justify-content: space-between;
 }
-    
+
 .portfolio-image img {
     width: 320px;
     height: 350px;
     border-radius: 16px;
-    margin:5px;
+    margin: 5px;
+}
+
+
+.news-latter {
+    width: 100%;
+    height: 600px;
+    background-color: rgba(255, 188, 188, 0.651);
+
+}
+
+.email-box img {
+    margin-top: 100px;
+    width: 150px;
+    height: 150px;
+}
+
+.news-latter-title {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.news-latter-title h1 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 30px 0;
+}
+
+.news-latter-title p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.newslatter-input input {
+    width: 620px;
+    height: 70px;
+    border-radius: 50px;
+    background: #FFF;
+    font-size:18px;
+    margin:20px 0;
+    padding:10px;
+    border:0;
 }
