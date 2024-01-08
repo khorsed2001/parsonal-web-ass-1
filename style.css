@@ -1,7 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&display=swap');
 
 
 * {
@@ -190,6 +189,7 @@ button {
 .red {
     color: #F00;
     font-size: 32px;
+    font-family: Inter;
 }
 
 .join-now {
@@ -202,34 +202,167 @@ button {
     height: 500px;
     margin: 0 auto;
     align-items: center;
+    justify-content: space-between;
 }
 
 .new-best-offer {
     text-align: left;
     max-width: 33.33%;
+
 }
 
 .new-best-offer h4 {
     color: #F00;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
+    margin-bottom: 25px;
+
 }
 
-.new-best-offer {
+.new-best-offer h2 {
     color: #070211;
     font-family: Merriweather;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 900;
     text-transform: capitalize;
+    margin-bottom: 25px;
 }
 
-.new-best-offer {
+.new-best-offer p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 25px;
+}
+
+.new-image img {
+    width: 300px;
+    height: 300px;
+    padding: 25px;
+    border-radius: 50%;
+    border: 10px solid red;
+}
+
+.happy-new-year-text-image {
+    text-align: left;
+    padding: 0px 25px;
+}
+
+.happy-new-year-text-image h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.happy-new-year-text-image p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+.holidays {
+    margin:100px 0;
+}
+
+.holidays h4 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.holidays h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holidays-red {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holidays p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
     font-size: 20px;
-    font-weight: 400;
+    font-style: normal;
+    font-weight: 500;
     line-height: 32px;
 }
 
-.
+
+
+
+
+.exited{
+    background-image: url(images/Rectangle2.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    background-position:bottom;
+    display: flex;
+    height: 500px;
+
+}
+
+.box-img{
+    width:50%;
+
+}
+
+.box-img img{
+    width:100%;
+
+}
+
+.offer-img{
+    display: flex;
+    width:50%;
+    
+}
+.offer-img img{
+
+}
+
+.offer-img1{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 66px;
+    z-index: 2;
+    
+}
+.offer-img2{
+    width: 340px;
+    height: 313px;
+    position:relative;
+    margin-left:200px;
+z-index: 1;
+    
+
+}
